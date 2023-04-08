@@ -1,7 +1,5 @@
 package hw_13_2_extra_nested;
 
-import hw_13_2.Month;
-
 public class MonthUtils {
 
     private final Month JANUARY = new Month("January", 31, 20);
@@ -52,41 +50,6 @@ public class MonthUtils {
         public Month getMonth(int n){
           return months[n - 1];
         }
-        public Month[] getQuarter(int quarter){
-            if(quarter == 1){
-                return new Month[]{JANUARY, FEBRUARY, MARCH};
-            }
-            else if(quarter == 2){
-                return new Month[]{months[3], months[4], months[5]};
-            }
-            else if(quarter == 3){
-                return new Month[]{months[6], months[7], months[8]};
-            }
-            else return new Month[]{months[9], months[10], months[11]};
-        }
-
-        public Month[] getQuarterImproved(int quarter){  // quarter is quarter of year (1, 2, 3, 4)
-            int n = 3 * quarter - 3; // n is monthNumber - 1
-            return new Month[]{months[n], months[n + 1], months[n + 2]};
-        }
-
-    public Month[] getQuarterForLoop(int quarter){
-        int n = 3 * quarter - 3;
-        Month[] mnths = new Month[3];
-        for (int i = n, j = 0; i < n + 3; i++, j++){
-            mnths[j] = months[i];
-        }
-        return mnths;
-    }
-
-    public Month[] getHalfYear(int halfYear){
-        int n = 6 * halfYear - 6;
-        return new Month[]{months[n], months[n + 1], months[n + 2], months[n + 3],
-                months[n + 4], months[n + 5]};
-
-    }
-    public Month[] getAllMonths(){
-        return months;
-    }
-
 }
+
+
