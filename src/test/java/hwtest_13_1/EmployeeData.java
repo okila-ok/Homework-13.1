@@ -1,4 +1,4 @@
-package hwTest_13_1;
+package hwtest_13_1;
 
 import hw_13_1.Director;
 import hw_13_1.Employee;

@@ -1,4 +1,4 @@
-package hwTest_13_1;
+package hwtest_13_1;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
