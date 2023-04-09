@@ -1,6 +1,6 @@
 package hw_13_2;
 
-public final class Month {
+public class Month {  // to make class immutable, remove setters - setters removed
     private String monthName;
     private int days;
     private int workDays;
@@ -10,9 +10,6 @@ public final class Month {
         this.days = days;
         this.workDays = workDays;
     }
-     public void setMonthName(String monthName){
-        this.monthName = monthName;
-     }
     public String getMonthName(){
         return monthName;
     }
@@ -20,15 +17,9 @@ public final class Month {
     public int getDays() {
         return days;
     }
-    public void setDays(int days) {
-        this.days = days;
-    }
 
     public int getWorkDays(){
         return workDays;
-    }
-    public void setWorkDays(int workDays){
-        this.workDays = workDays;
     }
 
 }
