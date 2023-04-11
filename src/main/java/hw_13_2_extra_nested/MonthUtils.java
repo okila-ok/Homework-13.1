@@ -16,7 +16,7 @@ public class MonthUtils {
     private final Month DECEMBER = new Month("December", 31, 20);
     private Month[] months = {JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER};
 
-    public class Month {
+    static class Month {
         private String monthName;
         private int days;
         private int workDays;
@@ -26,9 +26,7 @@ public class MonthUtils {
             this.days = days;
             this.workDays = workDays;
         }
-        public void setMonthName(String monthName){
-            this.monthName = monthName;
-        }
+
         public String getMonthName(){
             return monthName;
         }
@@ -36,16 +34,11 @@ public class MonthUtils {
         public int getDays() {
             return days;
         }
-        public void setDays(int days) {
-            this.days = days;
-        }
 
         public int getWorkDays(){
             return workDays;
         }
-        public void setWorkDays(int workDays){
-            this.workDays = workDays;
-        }
+
         }
         public Month getMonth(int n){
           return months[n - 1];

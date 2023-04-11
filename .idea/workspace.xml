@@ -4,27 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cfe34a3-3634-4fd8-9199-1b69d2a2e39b" name="Changes" comment="EmployeeUtils deleted as unnecessary">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_13_2/BaseEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_13_2/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_13_2/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_13_2/Month.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_13_2/MonthUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_13_2/Notes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_13_2_extra_nested/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_13_2_extra_nested/MonthUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hwtest_13_2/EmployeeData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hwtest_13_2/MonthTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hwtest_13_2/SalaryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hwtest_13_2_extra_nested/MonthNestedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw_13_1/EmployeeUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hwTest_13_1/EmployeeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hwtest_13_1/EmployeeData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hwTest_13_1/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hwtest_13_1/EmployeeTest.java" afterDir="false" />
+    <list default="true" id="6cfe34a3-3634-4fd8-9199-1b69d2a2e39b" name="Changes" comment="remove setters to make class immutable">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +43,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MonthNestedTest.checkGetMonth">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hw_13_2_extra_nested.Main" />
       <module name="AbstractAndFinal" />
@@ -149,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MonthNestedTest.checkGetMonth" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="TestNG.MonthNestedTest" />
+        <item itemvalue="TestNG.MonthNestedTest.checkGetMonth" />
         <item itemvalue="TestNG.MonthNestedTest.checkGetQuarter" />
         <item itemvalue="TestNG.MonthNestedTest.checkGetQuarterImproved" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +161,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680756801859</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add hw 13.2&#10;add hw 13.2 extra">
+      <created>1680980567660</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680980567660</updated>
+    </task>
+    <task id="LOCAL-00004" summary="minor change">
+      <created>1680980868140</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680980868140</updated>
+    </task>
+    <task id="LOCAL-00005" summary="remove setters to make class immutable">
+      <created>1681012801593</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681012801593</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +199,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="homework 13.1" />
     <MESSAGE value="EmployeeUtils deleted as unnecessary" />
-    <option name="LAST_COMMIT_MESSAGE" value="EmployeeUtils deleted as unnecessary" />
+    <MESSAGE value="add hw 13.2&#10;add hw 13.2 extra" />
+    <MESSAGE value="minor change" />
+    <MESSAGE value="remove setters to make class immutable" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove setters to make class immutable" />
   </component>
 </project>
