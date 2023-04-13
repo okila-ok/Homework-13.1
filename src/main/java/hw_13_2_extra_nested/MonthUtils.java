@@ -27,6 +27,18 @@ public class MonthUtils {
             this.workDays = workDays;
         }
 
+        public void setMonthName(String monthName) {
+            this.monthName = monthName;
+        }
+
+        public void setDays(int days) {
+            this.days = days;
+        }
+
+        public void setWorkDays(int workDays) {
+            this.workDays = workDays;
+        }
+
         public String getMonthName(){
             return monthName;
         }
