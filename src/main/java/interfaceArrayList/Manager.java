@@ -1,4 +1,4 @@
-package interfacearraylist;
+package interfaceArrayList;
 
 public class Manager extends Employee {
     private int numberOfSubordinates;

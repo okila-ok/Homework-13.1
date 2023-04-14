@@ -1,4 +1,4 @@
-package interfacearraylist;
+package interfaceArrayList;
 // if there are fields in Interface, they are static and final: normally, interface has methods only
 // methods in Interface are public by default
 

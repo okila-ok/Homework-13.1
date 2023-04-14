@@ -1,4 +1,4 @@
-package interfacearraylist;
+package interfaceArrayList;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 //      Employee wr1 = new Worker("Adams", 200);
 //      Employee man1 = new Manager("Xavier", 2000, 200);
- //     we can now use interface Salary instead of Employee parent class to create objects; we can also use it to create an array:
+//     we can now use interface Salary instead of Employee parent class to create objects; we can also use it to create an array:
 
         Salary wr1 = new Worker("Adams", 200);
         Salary man1 = new Manager("Xavier", 2000, 200);

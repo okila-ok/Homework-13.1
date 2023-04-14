@@ -1,4 +1,4 @@
-package interfacearraylist;
+package interfaceArrayList;
 
 public abstract class Employee implements Salary {
    private String name;

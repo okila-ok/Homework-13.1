@@ -1,4 +1,4 @@
-package interfacearraylist;
+package interfaceArrayList;
 
 public class Worker extends Employee{
    public Worker(String name, int baseSalary){
