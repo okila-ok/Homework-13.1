@@ -6,9 +6,12 @@ import org.testng.annotations.Test;
 
 public class MonthNestedTest {
     MonthUtils monthUtils = new MonthUtils();
-    @Test
-    public void checkGetMonth(){
-        Assert.assertEquals(monthUtils.getMonth(1).getMonthName(), "January");
-    }
 
+    @Test
+    public void checkGetMonth() {
+
+   Assert.assertEquals(monthUtils.getMonth(1).getMonthName(), "January");
+    }
 }
+
+

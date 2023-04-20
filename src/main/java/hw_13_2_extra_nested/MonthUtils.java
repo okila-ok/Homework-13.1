@@ -16,7 +16,9 @@ public class MonthUtils {
     private final Month DECEMBER = new Month("December", 31, 20);
     private Month[] months = {JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER};
 
-    static class Month {
+
+
+    public static class Month {
         private String monthName;
         private int days;
         private int workDays;
